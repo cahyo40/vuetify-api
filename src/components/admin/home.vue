@@ -1,5 +1,6 @@
 <template>
     <v-container>
+        <title>Home</title>
         <h1>
             INI HOME ADMIN
             <HelloWorld/>

@@ -7,9 +7,9 @@
       <v-spacer></v-spacer>
       <v-btn
         flat
-        href="#/admin"
+        href="#/login"
       >
-        <span class="mr-2">Admin</span>
+        <span class="mr-2">Login</span>
       </v-btn> 
     </v-toolbar> 
 
