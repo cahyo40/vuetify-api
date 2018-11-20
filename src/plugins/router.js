@@ -7,7 +7,7 @@ Vue.use(VueRouter);
 
 export default new VueRouter({
     routes:[
-        {path:'/login',name:Login,component:Login},
-        {path:'/admin',name:homeAdmin,component:homeAdmin}
+        {path:'/login',component:Login},
+        {path:'/admin',component:homeAdmin}
     ]
 });

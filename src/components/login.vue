@@ -1,34 +1,32 @@
 <template>
     <v-container>
-        <title>Halaman Login</title>
         <h1
             align="center"
+            style="margin-bottom 10px"
         >Halaman Login</h1>
-        <v-layout row  justify-center>
-            <v-flex xs5>
+        <title>Halaman Login</title>
+        <v-layout row justify-center>
+            <v-flex sm5>
                 <v-text-field
-                    type="text"
-                    label="Email"
-                    v-model="email"
-                />
-            </v-flex>
-            <span>{{ errors.first('email') }}</span>
-        </v-layout>
-        <v-layout row  justify-center>
-            <v-flex xs5>
-                <v-text-field
-                    type="password"
-                    label="Kata Sandi"
+                type="text"
+                label="Email"
                 />
             </v-flex>
         </v-layout>
-        <v-layout row  justify-center>
-           <v-flex xs5> 
+         <v-layout row justify-center>
+            <v-flex sm5>
+                <v-text-field
+                type="Password"
+                label="Kata Sandi"
+                />
+            </v-flex>
+        </v-layout>
+         <v-layout row justify-center>
+            <v-flex sm5>
                 <v-btn
-                    depressed
                     color="indigo"
-                    round
                     dark
+                    round
                 >Masuk</v-btn>
             </v-flex>
         </v-layout>
@@ -37,11 +35,10 @@
 
 <script>
 export default {
-    data(){
-        return{
-            email:null
-        }
+    methods:{
+        
     }
+    
 }
 </script>
 
